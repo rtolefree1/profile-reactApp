@@ -1,0 +1,30 @@
+.sectionContainer, divClass1, divClass2
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.resumeHeader a
+{
+   color: black;
+}
+
+.divPic img
+{
+    width: 540px;
+    height: 300px;
+    padding-top: 50px;
+}
+/* .divClass1
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+ .divClass2
+{
+    display: flex;
+    justify-content: flex-end;
+} */
