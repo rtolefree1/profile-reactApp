@@ -1,5 +1,6 @@
 import React from 'react';
 import image_7 from '../../Assets/image_7.jpg';
+import pdfFile from '../../Assets/RickyTolefreeResume.pdf'
 // import '../../styles/portfolio.css';
  import '../../styles/Resume.css';
 
@@ -14,7 +15,7 @@ export default function Resume() {
             <p >Georgia Tech Coding Projects</p>
             </div>
         </section>
-        <h1 className='resumeHeader'><a href='file:///C:/Resume/update/RickyTolefreeResume.pdf'><b>Resume - GITHUB</b></a></h1>
+        <h1 className='resumeHeader'><a href={pdfFile}><b>Resume - GITHUB</b></a></h1>
         <p>
         <section className='sectionContainer'>
           <div className='.divClass1'>

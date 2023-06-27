@@ -2,6 +2,7 @@ import React from 'react';
 import image_6 from '../../Assets/image_6.jpg';
 import image_7 from '../../Assets/image_7.jpg';
 import homework1_screenshot from '../../Assets/homework1_screenshot.jpg';
+import pdfFile from '../../Assets/RickyTolefreeResume.pdf'
 import '../../styles/portfolio.css';
 
 
@@ -138,9 +139,9 @@ export default function Portfolio() {
         <section className="contactArea">
             <nav>
                 <a href="#">Moble Number: (123) 456-7890</a>
-                <a id="section-4" href="./Assets/RickyTolefreeResume.pdf">Resume</a>
+                <a id="section-4" href={pdfFile}>Resume</a>
                 <a href="https://github.com/rtolefree1/">GitHub</a>
-                <a href="www.linkedin.com/in/rryde2000">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/rryde2000">LinkedIn</a>
             </nav>
         </section>
     </section>
