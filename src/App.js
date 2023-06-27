@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Footer from './components/pages/Footer';
 // import Navigation from './components/Navigation'
 import PortfolioContainer from './components/PortfolioContainer';
 
@@ -14,6 +15,7 @@ export default function App() {
       <header className="">
       <PortfolioContainer />
       </header>
+      <Footer />
     </div>
   );
 }

@@ -1,3 +1,4 @@
+// import of images, react, css file and pdf file
 import React from 'react';
 import image_6 from '../../Assets/image_6.jpg';
 import image_7 from '../../Assets/image_7.jpg';
@@ -8,6 +9,7 @@ import '../../styles/portfolio.css';
 
 export default function Portfolio() {
     return (
+        // banner and image for the header
       <div className='pageTitle'>
         <h1>Home Page</h1>
           <section className="bannerClass">
@@ -22,34 +24,19 @@ export default function Portfolio() {
     <header className="headerClass">
 
        
-            {/* <h1 className="h1_class">Ricky's Portfolio</h1> */}
-        
-    
-         {/* <div class="headerNav">  */}
-          {/* direct child of nav is ul and use li  */}
-            {/* <nav> 
-                <ul>
-                    <li><a href="#section-1">About Me</a></li>
-                    <li><a href="#section-2">Work</a></li>
-                    <li><a href="#section-3">Contact</a></li>
-                    <li><a href="./Assets/RickyTolefreeResume.pdf">Resume</a></li>
-                </ul>
-            </nav> */}
     </header>
 
     <section className="bannerClass">
         <div>
-        {/* <img src="./Assets/image_5.jpg" alt="Computer circuit board"/> */}
+        
          </div> 
-        {/* <div className="bannerClassPara"> 
-        <p >Chicago Skyline Coding Projects</p>
-        </div> */}
+       
     </section>
     
     <main>
 
         
-        {/* <img class="profilePic" src="./Assets/profilePicture.JPG" alt="Profile picture" /> */}
+        {/* About me section */}
     
         <section className="sectionContainer1">
             <aside>
@@ -67,7 +54,7 @@ export default function Portfolio() {
         </section>
 
         
-
+        {/* links to projects and assignments */}
         <section className="WorkContainerParent"> 
             <aside>
                 <h2 id="section-2">Work!</h2> 
@@ -135,7 +122,8 @@ export default function Portfolio() {
         <aside>
             <h2 id="section-3">Contact Me!</h2>   
         </aside>
-
+        
+{/* footer section for the profile page */}
         <section className="contactArea">
             <nav>
                 <a href="#">Moble Number: (123) 456-7890</a>

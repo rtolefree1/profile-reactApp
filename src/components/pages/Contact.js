@@ -5,17 +5,6 @@ import '../../styles/portfolio.css';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail, checkTextField, checkNameField } from '../../utils/helpers';
 
-// import ReactDOM from 'react-dom/client';
-
-// const myElement = (
-//     <>
-//       <p>I am a paragraph.</p>
-//       <p>I am a paragraph too.</p>
-//     </>
-//   );
-
-//   const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(myElement);
 
 //export default function Contact() {
     function Contact() {
@@ -25,37 +14,46 @@ import { validateEmail, checkTextField, checkNameField } from '../../utils/helpe
     const [username, setUserName] = useState('');
     const [textField, setTextField] = useState('');   
     const [errorMessage, setErrorMessage] = useState('');
+  
 
     const handleInput = (e) => {
 
         const { target } = e;
-        const inputType = target.name;
+        const inputType = target.id;
         const inputValue = target.value;
-
-        console.log('input type:', inputType)
+       // console.log('input',target)
+        
         if (inputType === 'name'){
+          console.log('input type:', inputType)
             setUserName(inputValue)
         }else 
         if (inputType === 'email')
             {
+              console.log('input type:', inputType)
                 setEmail(inputValue)
         }else
         if (inputType === 'textArea')
             {
+              console.log('input type:', inputType)
                 setTextField(inputValue)
             }
+        console.log('checking input type',inputType)
     }
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        console.log('checking email validation')
-        console.log('email',email)
-        console.log(checkNameField(username))
-        if(checkNameField(username))
+        // console.log('checking email validation')
+        // console.log('username:',username)
+        // console.log('checking username:',checkNameField(username))
+        // console.log('checking email',validateEmail(email))
+        // console.log('checking textfield',checkTextField(textField))
+        // if the field is empty the !false which is true and it returns error
+        if(!checkNameField(username))
         {
             setErrorMessage('Name field is Empty')
             return;
         }else if(!validateEmail(email)){
+           
             setErrorMessage('Email address is invalid')
             return;
         }
@@ -64,9 +62,15 @@ import { validateEmail, checkTextField, checkNameField } from '../../utils/helpe
             setErrorMessage('Text Field is Empty')
             return;
         }
+        // else
+        // {
+        //     setErrorMessage('Submission is sent. Please wait for reply!')
+        // }
 
-    setEmail('');
+    // setEmail('');
     setErrorMessage('');
+    setEmail('');
+   
     }
         
     

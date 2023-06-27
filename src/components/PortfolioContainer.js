@@ -22,6 +22,7 @@ export default function PortfolioContainer() {
     return <Contact />;
   };
 
+  
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
@@ -32,6 +33,7 @@ export default function PortfolioContainer() {
       {
         renderPage()
       }
+      
     </div>
   );
 }

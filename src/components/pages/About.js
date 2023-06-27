@@ -2,6 +2,7 @@ import React from 'react';
 import image_7 from '../../Assets/image_7.jpg';
 import '../../styles/portfolio.css';
 
+// about page
 export default function About() {
     return (
       <div className='pageTitle'>
