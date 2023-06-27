@@ -90,10 +90,10 @@ As with the previous portfolio Challenge, remember that "good" design is subject
 * Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
 
 ### Screenshots of Contact Form
-![Empty Namefield Image](./src/Assets/nameFieldEmpty.png)
-![Invalid Email Address](./src/Assets/invalidEmailAddress.png)
-![Empty Textfield](./src/Assets/textFieldEmpty.png)
-![All fields filled out](./src/Assets/nothingEmpty.png)
+![Empty Namefield Image](./nameFieldEmpty.png)
+![Invalid Email Address](./invalidEmailAddress.png)
+![Empty Textfield](./textFieldEmpty.png)
+![All fields filled out](./nothingEmpty.png)
 
 
 
