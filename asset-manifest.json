@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/profile-reactapp/static/css/main.e6e8cbb3.css",
-    "main.js": "/profile-reactapp/static/js/main.f96c768b.js",
+    "main.js": "/profile-reactapp/static/js/main.ccd6ec1e.js",
     "static/js/787.df4bc17b.chunk.js": "/profile-reactapp/static/js/787.df4bc17b.chunk.js",
     "static/media/homework1_screenshot.jpg": "/profile-reactapp/static/media/homework1_screenshot.e1357839302a74898b1b.jpg",
     "static/media/RickyTolefreeResume.pdf": "/profile-reactapp/static/media/RickyTolefreeResume.64636ea96e288f29e60e.pdf",
+    "static/media/scientistAvatar.jpg": "/profile-reactapp/static/media/scientistAvatar.b41db24db60aac8535a6.jpg",
     "index.html": "/profile-reactapp/index.html",
     "main.e6e8cbb3.css.map": "/profile-reactapp/static/css/main.e6e8cbb3.css.map",
-    "main.f96c768b.js.map": "/profile-reactapp/static/js/main.f96c768b.js.map",
+    "main.ccd6ec1e.js.map": "/profile-reactapp/static/js/main.ccd6ec1e.js.map",
     "787.df4bc17b.chunk.js.map": "/profile-reactapp/static/js/787.df4bc17b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6e8cbb3.css",
-    "static/js/main.f96c768b.js"
+    "static/js/main.ccd6ec1e.js"
   ]
 }
