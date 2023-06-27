@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/profile-reactapp/static/css/main.e6e8cbb3.css",
-    "main.js": "/profile-reactapp/static/js/main.5d46bfd8.js",
+    "main.js": "/profile-reactapp/static/js/main.04fbfc83.js",
     "static/js/787.df4bc17b.chunk.js": "/profile-reactapp/static/js/787.df4bc17b.chunk.js",
     "static/media/homework1_screenshot.jpg": "/profile-reactapp/static/media/homework1_screenshot.e1357839302a74898b1b.jpg",
+    "static/media/RickyTolefreeResume.pdf": "/profile-reactapp/static/media/RickyTolefreeResume.64636ea96e288f29e60e.pdf",
     "index.html": "/profile-reactapp/index.html",
     "main.e6e8cbb3.css.map": "/profile-reactapp/static/css/main.e6e8cbb3.css.map",
-    "main.5d46bfd8.js.map": "/profile-reactapp/static/js/main.5d46bfd8.js.map",
+    "main.04fbfc83.js.map": "/profile-reactapp/static/js/main.04fbfc83.js.map",
     "787.df4bc17b.chunk.js.map": "/profile-reactapp/static/js/787.df4bc17b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6e8cbb3.css",
-    "static/js/main.5d46bfd8.js"
+    "static/js/main.04fbfc83.js"
   ]
 }
