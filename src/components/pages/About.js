@@ -1,5 +1,6 @@
 import React from 'react';
 import image_7 from '../../Assets/image_7.jpg';
+import avatar from '../../Assets/scientistAvatar.jpg'
 import '../../styles/portfolio.css';
 
 // about page
@@ -22,6 +23,10 @@ export default function About() {
         to be a better asset to the field of Computer Science. Outside of education, I spend my time with friends, <br></br>
         family and the gym. I travel when I can and I look to be the best version of myself daily.
       </p>
+
+      <div>
+         <img src={avatar} alt="scientist"/>
+      </div>
       </div>
     );
   }

@@ -83,10 +83,10 @@ export default function Portfolio() {
 
             <article className="workClass2">
                 <div >
-                    <img src={image_6} alt="Computer circuit board" />      
+                    <a href="https://www.youtube.com/watch?v=Yy6OrGRBayk"><img src={image_6} alt="Computer circuit board" /></a>      
                 </div>
                 <div className="projectBoxContainer1">
-                <p ><b>Calculator</b><br/><small>React/JavaScript/CSS</small></p>
+                <p ><b>EmployeeTracker</b><br/><small>React/JavaScript/CSS</small></p>
                 </div>
             </article>
             </div>
@@ -95,19 +95,19 @@ export default function Portfolio() {
             <div>
             <article className="workClass2">
                 <div >
-                    <img src={image_7} alt="Multiple Monitors; color blue" />      
+                    <a href='https://www.youtube.com/watch?v=gveNXqKiNGg'><img src={image_7} alt="Multiple Monitors; color blue" /></a>      
                 </div>
                 <div className="projectBoxContainer1">
-                <p ><b>Surf Report</b><br/><small>Mern Stack</small></p>
+                <p ><b>LogoMaker</b><br/><small>Mern Stack</small></p>
                 </div>
             </article>
 
             <article className="workClass2">
                 <div >
-                    <img src={image_7} alt="Multiple Monitors; color blue" />      
+                    <a href='https://github.com/rtolefree1/WeatherDashboard'><img src={image_7} alt="Multiple Monitors; color blue" /></a>      
                 </div>
                 <div className="projectBoxContainer1">
-                <p ><b>Run Bubby</b><br/><small>HTML CSS</small></p>
+                <p ><b>WeatherDashboard</b><br/><small>HTML CSS</small></p>
                 </div>
             </article>
         </div>
@@ -122,7 +122,7 @@ export default function Portfolio() {
         <aside>
             <h2 id="section-3">Contact Me!</h2>   
         </aside>
-        
+
 {/* footer section for the profile page */}
         <section className="contactArea">
             <nav>

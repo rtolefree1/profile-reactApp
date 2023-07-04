@@ -8,6 +8,9 @@ I deployed my application to GitHub Pages. Follow the instructions in the Git Gu
 
 **Important**: I made sure to push my codebase to the default branch in GitHub -- NOT my built and deployed code. I ensured this happens by using the `gh-pages` branch to host the deployed application's build.
 
+## Link to Application
+[ProfileReactApplication](https://rtolefree1.github.io/profile-reactapp/) 
+
 ## User Story
 
 ```md
